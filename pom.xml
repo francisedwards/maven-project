@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<!-- 
+	<!--  
 	<parent>
 		<groupId>ddffde6f-7d3c-4208-83ff-aab7c5019587</groupId>
 		<artifactId>api-superpom</artifactId>
 		<version>1.1.0</version>
 	</parent>
-	 -->
+	  -->
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mulesoft.training</groupId>
 	<artifactId>maven-project</artifactId>
@@ -72,6 +72,7 @@
 	</dependencies>
 
 	<!-- Below needed from parent POM when parent POM commented out -->
+	<!-- --> 
 	<pluginRepositories>
 		<pluginRepository>
 			<id>plugin</id>
@@ -83,5 +84,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+	 
 </project>
