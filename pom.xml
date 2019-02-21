@@ -70,9 +70,9 @@
 			          <uri>https://anypoint.mulesoft.com</uri>
 			          <target>Node1</target>
 			          <targetType>server</targetType>
-			          <username>francisedwards</username>
-			          <password>Cuxhav3n!</password>
-			          <environment>TEST	</environment>
+			          <username>${uid}</username>
+			          <password>${pwd}</password>
+			          <environment>Test</environment>
 			      </armDeployment>
 			    </configuration>
 				<executions>
