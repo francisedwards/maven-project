@@ -67,6 +67,7 @@
 				<version>2.3.2</version>
 			    <configuration>
 			      <armDeployment>
+			          <muleVersion>3.9.2</muleVersion>
 			          <uri>https://anypoint.mulesoft.com</uri>
 			          <target>Node1</target>
 			          <targetType>server</targetType>
