@@ -69,8 +69,8 @@
 			      <armDeployment>
 			          <muleVersion>3.9.2</muleVersion>
 			          <uri>https://anypoint.mulesoft.com</uri>
-			          <target>Node1</target>
-			          <targetType>server</targetType>
+			          <target>Cluster</target>
+			          <targetType>cluster</targetType>
 			          <username>${uid}</username>
 			          <password>${pwd}</password>
 			          <environment>Test</environment>
